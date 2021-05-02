@@ -48,6 +48,14 @@ header {
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
+.wrapCard {
+  position: relative;
+  z-index: 999;
+  background-color: #273c75;
+  padding: 1rem 2rem 3rem;
+  width: 100%;
+}
+
 .movie:hover .movie-overview {
   transform: translateY(0%);
 }
